@@ -13,7 +13,7 @@ export default class List extends Component {
     }
 
     async componentDidMount() {
-        const response = await axios.get('https://api.github.com/users/diego3g/repos');
+        const response = await axios.get('https://api.github.com/users/andreluizmartinsramos/repos');
     
         this.setState({ repositories: response.data });
     }
